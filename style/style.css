@@ -32,7 +32,7 @@ header, main{
     padding: 10px 47px;
 }
 
-/* color */
+/* navber color */
 .orange {
     color: #FEA301;
 }
@@ -45,6 +45,29 @@ header, main{
 .blue-violet {
     color: #5D58EF;
 }
+/* curriculum color */
+.color1{
+    color: #64C8FF;
+}
+.color2 {
+    color: #F0AA00;
+}
+.color3 {
+    color: #8700FF;
+}
+
+/* linear-gradient color */
+
+.linear-1 {
+   background-image: linear-gradient(#DEF5FF, #FFFFFF);
+}
+.linear-2 {
+    background-image: linear-gradient(#FFF4DC, #FFFFFF);
+}
+.linear-3 {
+    background-image: linear-gradient(#EEE1FF, #FFFFFF);
+}
+
 
 
 
@@ -66,6 +89,10 @@ header, main{
     font-size: 1.25rem;
     font-weight: 500;
 }
+.nav-links a:hover {
+    background-color: #f0f0f0;
+}
+
 .nav-link {
     text-decoration: none;
 }
@@ -79,6 +106,9 @@ header, main{
     padding: 10px 60px;
     border-radius: 12px;
     border: none;
+}
+.navber-btn:hover {
+    background-color: skyblue;
 }
 
 
@@ -100,10 +130,65 @@ header, main{
     margin-bottom: 24px;
 }
 
-#bannerimg {
+#banner-img {
     width: 100%;
 }
+.banner-btn:hover {
+    background-color: gray;
+}
 
+
+/* curriculum section style */
+
+.curriculum {
+    background-image: url(../assets/bg.png);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.curriculum-main-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin: 60px 0 80px 0;
+}
+
+.curriculum-container {
+    gap: 28px;
+}
+
+.curriculum-box {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+    border-radius: 18px;
+    padding: 50px;
+}
+
+.curriculum-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 32px;
+}
+.curriculum-contain{
+    font-size: 1rem;
+    color: rgba(128, 128, 128, 1);
+    margin-top: 33px;
+}
+
+.curriculum-btn {
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 4px 10px;
+    margin-top: 33px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+.curriculum-btn:hover {
+    color: rgba(255, 0, 0, 0.753);
+}
+
+
+/*  */
 
 
 
@@ -114,7 +199,8 @@ header, main{
 
 @media screen and (max-width: 576px) {
     .navbar, 
-    .banner
+    .banner,
+    .curriculum-container
      {
         flex-direction: column;
     }
@@ -125,6 +211,17 @@ header, main{
         margin: 0 16px;
     }
 
-        /*  */
+        /* curriculum */
+        .curriculum {
+            margin: 0 16px;
+        }
+        .curriculum-container {
+            gap: 15px;
+        }
+        .curriculum-main-title {
+            font-size: 1.6rem;
+            margin-bottom: 20px;
+        }
 
+        
 }
