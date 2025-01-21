@@ -19,7 +19,7 @@
 }
 header {
     max-width: 1200px;
-    margin: auto auto;
+    margin: 0 auto;
 }
 
 .btn-primary {
@@ -317,8 +317,9 @@ header {
     background-color: white;
     border-radius: 16px;
 }
-.stories-container, img {
+#stories-img {
     border-radius: 16px 16px 0 0;
+    width: 100%;
 }
 
 /* footer section style */
@@ -378,7 +379,8 @@ footer {
     .navbar, 
     .banner,
     .curriculum-container,
-    footer
+    footer,
+    .stories-container
      {
         flex-direction: column;
     }
@@ -395,6 +397,7 @@ footer {
     }
     .curriculum-container {
         gap: 15px;
+        margin: 0;
     }
     .curriculum-main-title {
         font-size: 1.6rem;
@@ -406,12 +409,27 @@ footer {
     }
 
         /* Our Stories */
-    
+    .story-box1 {
+        display: none;
+    }
+    .story-box2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .stories-container {
+        margin: 0 16px;
+    }
+    .story-btn {
+        font-size: .80rem;
+        font-weight: 400;
+        padding: 8px 13px;
+        border-radius: 48px;
+    }
     
         /* footer */
-        footer {
-            padding: 20px;
-            gap: 32px;
-        }  
+    footer {
+        padding: 20px;
+        gap: 32px;
+    }  
     
 }
