@@ -91,6 +91,8 @@ header, main{
 }
 .nav-links a:hover {
     background-color: #f0f0f0;
+    padding: 5px;
+    border-radius: 4px;
 }
 
 .nav-link {
@@ -188,7 +190,57 @@ header, main{
 }
 
 
-/*  */
+/* Our Stories */
+
+
+
+
+
+/* footer section style */
+
+footer {
+    color: white;
+    background-color: #01ACFD;
+    padding: 140px 180px;
+    justify-content: space-around;
+}
+.footer-head-title {
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin-left: 15px;
+}
+.footer-head-contain{
+    font-size: 1.25rem;
+    margin-top: 36px;
+}
+
+
+.footer-navber-titel {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-links a:hover {
+    background-color: #f0f0f072;
+    padding: 6px;
+    border-radius: 4px;
+}
+.footer-l {
+    text-decoration: none;
+    color: white;
+}
+
+
+.footer-logo-titel {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
 
 
 
@@ -200,7 +252,8 @@ header, main{
 @media screen and (max-width: 576px) {
     .navbar, 
     .banner,
-    .curriculum-container
+    .curriculum-container,
+    footer
      {
         flex-direction: column;
     }
@@ -212,16 +265,24 @@ header, main{
     }
 
         /* curriculum */
-        .curriculum {
-            margin: 0 16px;
-        }
-        .curriculum-container {
-            gap: 15px;
-        }
-        .curriculum-main-title {
-            font-size: 1.6rem;
-            margin-bottom: 20px;
-        }
+    .curriculum {
+        margin: 0 16px;
+    }
+    .curriculum-container {
+        gap: 15px;
+    }
+    .curriculum-main-title {
+        font-size: 1.6rem;
+        margin-bottom: 20px;
+    }
 
-        
+        /* Our Stories */
+    
+    
+        /* footer */
+        footer {
+            padding: 20px;
+            gap: 32px;
+        }  
+    
 }
