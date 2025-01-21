@@ -288,7 +288,7 @@ header {
     border: none;
 }
 .box-btn {
-    margin-left: 40px;
+    margin-left: 35px;
     margin-top: -20px;
 }
 
@@ -305,8 +305,6 @@ header {
     background-color: slategray;
     box-shadow: 0 0 5px black;
 }
-
-
 
 
 
@@ -424,6 +422,13 @@ footer {
         font-weight: 400;
         padding: 8px 13px;
         border-radius: 48px;
+    }
+    .stories-btn {
+        justify-items: center;
+    }
+    .our-stories{
+        align-items: center;
+        justify-content: center;
     }
     
         /* footer */
