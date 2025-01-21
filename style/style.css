@@ -17,9 +17,9 @@
 .display-flex{
     display: flex;
 }
-header, main{
+header {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: auto auto;
 }
 
 .btn-primary {
@@ -159,6 +159,7 @@ header, main{
 }
 
 .curriculum-container {
+    margin: auto 140px;
     gap: 28px;
 }
 
@@ -214,9 +215,111 @@ header, main{
 
 /* Our Stories */
 
+.our-stories {
+    background-image: url(../assets/bg.png), linear-gradient(to top, rgba(254, 161, 1, 0.274), rgba(255, 255, 255, 1));
+    background-size: cover;
+    justify-items: center;
+}
+.stories-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin: 80px auto;
+}
+.stories-container {
+    gap: 20px;
+    justify-content: center;
+}
+
+
+    /* box1 */
+.story-box1 {
+    background-color: white;
+    border-radius: 16px;
+}
+
+.box1-container {
+    display: flex;
+    flex-direction: column;
+}
+.box1-btn {
+    background-color: #64C8FF;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 15px 18px;
+    border-radius: 48px;
+    border: none;
+}
+.box1-btn-design {
+    margin-left: 40px;
+    margin-top: -30px;
+}
+
+.box1-contain{
+    padding: 40px;
+}
+.box1-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.box1-subtitle {
+    font-size: 1rem;
+}
+
+
+    /* box2 */
+
+.story-box2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.story-btn {
+    background-color: #95B226;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 10px 18px;
+    border-radius: 48px;
+    border: none;
+}
+.box-btn {
+    margin-left: 40px;
+    margin-top: -20px;
+}
+
+.story2-container {
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 40px;
+}
+
+.stories-btn {
+    margin: 80px auto;
+}
+.stories-btn:hover {
+    background-color: slategray;
+    box-shadow: 0 0 5px black;
+}
 
 
 
+
+
+#story3-color {
+    background-color: #5D58F0;
+}
+.bg-color {
+    background-color: white;
+    border-radius: 16px;
+}
+.stories-container, img {
+    border-radius: 16px 16px 0 0;
+}
 
 /* footer section style */
 
