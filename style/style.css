@@ -111,6 +111,7 @@ header, main{
 }
 .navber-btn:hover {
     background-color: skyblue;
+    box-shadow: 0 0 3px skyblue;
 }
 
 
@@ -137,6 +138,7 @@ header, main{
 }
 .banner-btn:hover {
     background-color: gray;
+    box-shadow: 0 0 3px silver;
 }
 
 
@@ -187,6 +189,26 @@ header, main{
 }
 .curriculum-btn:hover {
     color: rgba(255, 0, 0, 0.753);
+    box-shadow: 0 0 3px rgb(219, 215, 215);
+    border-radius: 4px;
+}
+
+.curriculum-curcal {
+    gap: 10px;
+    margin: 80px auto;
+}
+.curriculum-icon {
+    width: 60px;
+    height: 60px;
+    color: white;
+    font-size: 1.5rem;
+    background-color: #FEA301;
+    border-radius: 30px;
+    border: none;
+}
+.curriculum-icon:hover {
+    background-color: skyblue;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.482);
 }
 
 
@@ -274,6 +296,10 @@ footer {
     .curriculum-main-title {
         font-size: 1.6rem;
         margin-bottom: 20px;
+    }
+
+    .curriculum-curcal {
+        display: none;
     }
 
         /* Our Stories */
