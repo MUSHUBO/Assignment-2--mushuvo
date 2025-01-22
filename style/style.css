@@ -114,6 +114,12 @@ header {
     box-shadow: 0 0 3px skyblue;
 }
 
+.open-menu {
+    visibility: hidden;
+    font-size: 2rem;
+}
+
+
 
 /* Banner section style */
 
@@ -374,7 +380,7 @@ footer {
 /* small devices responsive media query */
 
 @media screen and (max-width: 576px) {
-    .navbar, 
+     
     .banner,
     .curriculum-container,
     footer,
@@ -437,4 +443,24 @@ footer {
         gap: 32px;
     }  
     
+        /* navbar */
+    .navbar {
+        background-color: #05D4DF;
+        justify-content: space-between;
+        /* align-items: center; */
+        margin: 0;
+        border-bottom: 2px solid orange;
+        padding: 0 16px;
+    }
+    .navbar-title {
+        /* background-color: #05D4DF; */
+        margin: 12px 0;
+    }
+    .nav-links, .navber-btn {
+        display: none;
+    }
+    .open-menu {
+        visibility: visible;
+        font-size: 2rem;
+    }
 }
