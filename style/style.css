@@ -83,6 +83,10 @@ header {
 .navbar-title {
     align-items: center;
 }
+.school {
+    font-size: 2rem;
+    font-size: 700;
+}
 
 .nav-links {
     gap: 32px;
@@ -103,6 +107,8 @@ header {
 }
 
 .navber-btn {
+    font-size: 1.25rem;
+    font-weight: 600;
     color: white;
     background-color: #FEA301;
     padding: 10px 60px;
@@ -119,6 +125,23 @@ header {
     font-size: 2rem;
 }
 
+.marquee {
+    display: flex;
+    align-items: center;
+    background-color: skyblue;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+.marquee span {
+    color: white;
+    background-color: orange;
+    border-radius: 6px 0 0 6px;
+    font-weight: 600;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    padding: 8px 15px;
+}
 
 
 /* Banner section style */
@@ -445,7 +468,6 @@ footer {
     
         /* navbar */
     .navbar {
-        background-color: #05D4DF;
         justify-content: space-between;
         /* align-items: center; */
         margin: 0;
@@ -453,14 +475,16 @@ footer {
         padding: 0 16px;
     }
     .navbar-title {
-        /* background-color: #05D4DF; */
         margin: 12px 0;
     }
-    .nav-links, .navber-btn {
+    .nav-links, .navber-btn, .school {
         display: none;
     }
     .open-menu {
         visibility: visible;
         font-size: 2rem;
+    }
+    .marquee {
+        margin: 20px 6px;
     }
 }
